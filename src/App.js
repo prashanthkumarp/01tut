@@ -1,18 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-const handlefunc =() =>{
-  const names=['prashanth','shakthi','vani'];
-  const ival=Math.floor(Math.random() *3);
-  return names[ival];
-}
+import Header from "./Header";
+import Content from "./Content";
+import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>HELLO {handlefunc()}</p>
-         
-      </header>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
