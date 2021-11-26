@@ -3,7 +3,7 @@ const today = new Date();
 const Footer = () => {
   return (
     <footer>
-      <p> Copyright &copy; {today.getFullYear()} CodeyShakthi.com</p>
+      <p> Copyright &copy; {today.getFullYear()}</p>
     </footer>
   );
 };
